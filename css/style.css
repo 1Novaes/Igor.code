@@ -212,6 +212,7 @@ section .title::after{
 .skills .skills-content .card{
     width:calc(33% - 20px) ;
     background-color: #14213D;
+    min-height: 200px;
     color: #fff;
     border-radius: 6px;
     padding: 30px 20px;
@@ -254,25 +255,30 @@ section .title::after{
 }
 .projects .carousel .card{  
     text-align: justify;
-    padding: 25px 35px;
+    padding: 20px 30px;
     background-color: #fff;
     border-radius: 6px;
+ 
+    font-size: 20px;
     border: 1px solid #E5E5E5;
     
 }
 .projects .carousel .card .project-img{
-    height: 150px;
-    width: 250px;
+    width: 200px;
+    height: 100px;
     object-fit: cover;
-    border-radius: 12px
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 .projects .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align-last: center;   
+    text-align-last: center; 
+    
 }
+
 .projects .carousel .card .box .text{
     font-size: 25px;
     font-weight: 500;
@@ -286,7 +292,7 @@ section .title::after{
     align-items: center;
     gap: 10px;
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     background-color: #14213D;
     margin: 10px auto;
     padding: 12px 85px;
