@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lexend+Deca&family=Righteous&family=Roboto+Mono:wght@100&display=swap');
 *{
     margin: 0;
@@ -169,7 +169,7 @@ section .title::after{
 }
 .about .max-width .about-text{
     font-size: 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     max-width: 960px;
     margin: 20px auto;
     text-align: justify;  
