@@ -164,6 +164,7 @@ section .title::after{
 .about, .skills, .projects, .contact, footer{
     font-family:'Righteous'; 
 }
+
 .about .title::after{
     content: "About";
 }
